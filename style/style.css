@@ -28,10 +28,11 @@ body {
 .search-bar .action-btn {
     padding: 3px 15px;
     margin-left: 0px;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     border-radius: 0 10px 10px 0;
     color: black;
     transition: 200ms ease;
+    background-color: #ccc;
 }
 .search-bar .action-btn:hover {
     background-color: green;
@@ -84,6 +85,7 @@ div.footer {
     bottom: 0;
     left: 0;
     right: 0;
+    font-size: 0.75em;
 }
 form.search-form {
     position: fixed;
@@ -96,4 +98,11 @@ form.search-form {
 }
 .result-details {
     margin: 10px 0;
+}
+.details {
+    word-wrap: break-word;
+}
+.details .title {
+    margin: 10px 2px;
+    font-weight: 700;
 }

@@ -36,7 +36,6 @@ class SearchBar extends Component {
     }
     
     getSearchTerm(term) {
-        console.log("term is: "+term+ "and it's length is => " + term.length);
         if ( term.length !== 0 ) {
             return (
             <div className="col-xs-12 col-sm-6">You are searching for <b>{this.state.term }</b>.</div>)

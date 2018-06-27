@@ -33,7 +33,6 @@ class App extends Component {
              });
             }
         );
-        console.log(YTSearch);
     }
 
     render() {
