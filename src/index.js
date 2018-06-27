@@ -18,14 +18,13 @@ class App extends Component {
             videos: [],
             selectedVideo: null
         };
-        this.videoSearch('surf');
+        this.videoSearch('vegan');
     }
 
     videoSearch(term) {
         YTSearch({
             key: API_KEY,
             term: term,
-            limit: 10
             },
             videos => {
                 this.setState({
@@ -34,6 +33,7 @@ class App extends Component {
              });
             }
         );
+        console.log(YTSearch);
     }
 
     render() {

@@ -34,8 +34,8 @@ body {
     transition: 200ms ease;
 }
 .search-bar .action-btn:hover {
-    background-color: orange;
-    border: 1px solid orange;
+    background-color: green;
+    border: 1px solid green;
 }
 .search-bar .search-input:focus {
     border: 1px solid #ddd;
