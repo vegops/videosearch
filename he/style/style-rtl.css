@@ -1,0 +1,15 @@
+body {
+    direction: rtl;
+}
+.video-detail, li.list-group-item {
+    float: right;
+}
+.search-bar .search-input {
+    margin: 5px;
+    border-radius: 0 10px 10px 0;
+    margin-left: 0;
+}
+.search-bar .action-btn {
+    margin-right: 0px;
+    border-radius: 10px 0 0 10px;
+}
