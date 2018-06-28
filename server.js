@@ -5,8 +5,14 @@ const app = express();
 
 app.use(express.static(__dirname));
 
-app.get('*',(req, res) => {
+app.get('/',(req, res) => {
+    console.log(req);
     res.sendFile(path.resolve(__dirname, 'index.html'));
+});
+
+app.get('/he',(req, res) => {
+    console.log(req);
+    res.sendFile(path.resolve(__dirname, 'he/index.html'));
 });
 
 app.listen(port);

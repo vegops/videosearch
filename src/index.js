@@ -9,6 +9,7 @@ import Footer from '../components/footer';
 
 const API_KEY = 'AIzaSyBVvMgPNlPE3ju0MB24uNphnSfiWZUf4cM';
 
+console.log('language => English');
 // Create main app component
 class App extends Component {
     constructor(props) {

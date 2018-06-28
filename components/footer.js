@@ -5,6 +5,7 @@ const Footer = () => {
             This site was creater by &nbsp; 
                 <a href="mailto:vops.dev@gmail.com">Vops</a>
             &nbsp; All right reserved 2018 &#9400;
+            <a className="lang" href="/he">עברית</a>
             </div>;
 }
 

@@ -19,7 +19,7 @@ class SearchBar extends Component {
                     onClick = { event => event.target.value = "" }
                     onChange = { event => this.setState({term: event.target.value }) }
                     placeholder="Search here..." />
-                    <input className="action-btn" type="submit" value="Go" />
+                    <input className="action-btn" type="submit" value="Go!" />
                 </form>
                 <div className="result-details col-xs-12">
                     <div>{this.getSearchTerm(this.state.term)}</div>
